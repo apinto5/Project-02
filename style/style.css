@@ -1,0 +1,77 @@
+    li {
+      display: list-item;
+    }
+  nav {
+    font-size: 10px;
+    top: 0;
+    position: relative;
+  }
+
+  nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top:5px;
+    background: #3BACC9;
+    border-radius: 20px;
+  }
+
+  nav ul li {
+    font-size: 15px;
+    padding-left: 25px;
+    display: inline-block;
+  }
+
+  nav ul li a {
+    color: black;
+    background: #ADCECB;
+    border-radius: 10px;
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black; 
+  }
+  .ISUDHead{
+    color:  #80ffff;
+    background:  #00995c;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    
+   } 
+  .logo_header{
+    width: 95%;
+}
+
+.loginbtn {
+    color: black;
+    background-color: #ADCECB;
+    border-radius: 10px;
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black; 
+    font-size: 16px;
+}
+h2.signup{
+    text-align: center;
+    background-image: linear-gradient(white, #80ffff);  
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.login_btn_menu {
+  position: relative;
+  display: inline-block;
+}
+
+.loginbtn-content {
+  display: none;
+  position: absolute;
+  background-color: #ADCECB;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.login_btn_menu:hover .loginbtn-content {display: block;}
+
+.login_btn_menu:hover .loginbtn-content {background-color: #ADCECB;}
