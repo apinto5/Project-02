@@ -8,13 +8,31 @@
       <link rel="stylesheet" media="screen" href="css/reset.css"/>
    </head>
   <body>
-      <h2 class="ISUDHead">The International Society for Universal Dialogue</h2>
+      <img class="logo_header" src="banner.png" alt="ISUD_Logo">
       <nav>
-        <ul>
+        <ul>  
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="announce.html">ISUD Announcement</a></li>
-          <li><a href="signup.html">Sign-Up</a></li>
+          <li>
+               <div class="login_btn_menu">
+                   <button class="loginbtn">Login</button>
+                   <div class="loginbtn-content">
+                       <form method="get" action="#null">
+                               <label for="loginUser">Username: </label> 
+                               <input type="text" name="loginUser" id="loginUsername">
+                            
+                               <label for="loginPass">Password:</label>
+                               <input type="password" name="loginPass" id="loginPass">
+                            
+                           <input type="button" onclick="alert('Hello World!')" value="Login">
+
+                           <label for ="signBtn">No account? Head to our sign-up page:</label>
+                           <input type="button" name="signBtn" onclick="location.href='signup.html'" value="Sign-Up">
+	                    </form>
+                   </div>
+              </div>
+            </li>
         </ul>
       </nav>
    </body>
