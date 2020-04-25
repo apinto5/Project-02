@@ -13,10 +13,10 @@ function validateUser(pass){
     }
 }
 var slideIndex = 1;
-showDivs(slideIndex);
+show(slideIndex);
 
 function plus(n) {
-  showDivs(slideIndex += n);
+  show(slideIndex += n);
 }
 
 function show(n) {
