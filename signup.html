@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
+
    <head>
+      <script src="md5.js"></script>
+      <script src="scripts.js"></script>
       <title>Project 02</title>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-      <link rel="stylesheet" media="screen" href="style/style.css"/>
+      <link rel="stylesheet" media="screen" href="style.css"/>
       <link rel="stylesheet" media="screen" href="css/reset.css"/>
-      <script src="js/md5.js"></script>
-
    </head>
   <body>
       <img class="logo_header" src="banner.png" alt="ISUD_Logo">
@@ -20,46 +21,42 @@
                <div class="login_btn_menu">
                    <button class="loginbtn">Login</button>
                    <div class="loginbtn-content">
-                        <form method="post" action="#null">
-                            <label for="loginUser">Username: </label> 
-                            <input type="text" name="loginUser" id="loginUsername">
+                       	<form action="#" method="get" onsubmit="return getHashData()">
+                           <label for="loginUser">Username: </label> 
+                           <input type="text" name="loginUser" id="loginUsername">
 
-                            <label for="loginPass">Password:</label>
-                            <input type="password" name="loginPass" id="loginPass">
-
-
-                            <input type="button" onclick="alert('Hello World!')" value="Login">
-
+                           <label for="loginPass">Password:</label>
+                           <input type="password" name="loginPass" id="loginPassword">
+                            
+                           <input type="submit" value="Login">
+                           
                             <label for ="signBtn">No account? Head to our sign-up page:</label>
                             <input type="button" name="signBtn" onclick="alert('You are already on the sign-up page!')" value="Sign-Up">
-	                    </form>
-                       
-                       
+			    </form>
                    </div>
               </div>
             </li>
         </ul>
-      </nav>
-      <h2 class="signup">We welcome you to The International Society for Universal Dialogue</h2>
-       <form action="php/signup.php" method="post">
-           <label for="first_name">First Name: </label> 
-           <input type="text" name="first_name" id="firstNLbl">
+      </nav>      
+      <h2>We welcome you to The International Society for Universal Dialogue</h2>
+      <div class="signup">
+          <h3>Please use the following contact form to sign-up:</h3>
+           <form action="#" method="post">
+               <label for="first_name">First Name: </label> 
+               <input type="text" name="first_name" id="firstNLbl">
 
-           <label for="last_name">Last Name: </label> 
-           <input type="text" name="last_name" id="lastNLbl">
+               <label for="last_name">Last Name: </label> 
+               <input type="text" name="last_name" id="lastNLbl">
 
-           <label for="signupUser">Username: </label> 
-           <input type="text" name="signUpUser" id="signUpUsername">
+               <label for="signupUser">Username: </label> 
+               <input type="text" name="signUpUser" id="signUpUsername">
 
-           <label for="loginPass">Password:</label>
-           <input type="password" name="loginPass" id="loginPass">
+               <label for="loginPass">Password:</label>
+               <input type="password" name="loginPass" id="loginPassword">
 
-           <input type="submit" value="Submit!"> 
-           
-           <label for ="signBtn">No account? Head to our sign-up page:</label>
-           <input type="button" name="signBtn" onclick="location.href='signup.html'" value="Sign-Up">
-           
-           
-      </form>
+               <input type="submit" value="Sign-Up!"> 
+   	  </form>         
+      </div>
    </body>
 </html>
+
