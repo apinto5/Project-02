@@ -89,7 +89,7 @@
 }
 .signup input[type=submit] {
   width: 50%;
-  background-color: #4CAF50;
+  background-color: #2D9B84;
   color: white;
   padding: 14px 20px;
   margin: 2% 0;
@@ -132,7 +132,7 @@
     width: 125px;
 }
 .iconbar button{
-    background-color: #4CAF50; /* Green */
+    background-color: #2D9B84;
     border: none;
     color: white;
     padding: 15px 30px;
