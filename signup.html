@@ -41,21 +41,22 @@
       <h2>We welcome you to The International Society for Universal Dialogue</h2>
       <div class="signup">
           <h3>Please use the following contact form to sign-up:</h3>
-           <form action="#" method="post">
+           <form action="#" method="get" onsubmit="return validateSignupInputs()" id="signform">
                <label for="first_name">First Name: </label> 
-               <input type="text" name="first_name" id="firstNLbl">
+               <input type="text" name="first_name" id="firstN">
 
                <label for="last_name">Last Name: </label> 
-               <input type="text" name="last_name" id="lastNLbl">
+               <input type="text" name="last_name" id="lastN">
+                              
+               <label for="emailUser">Email: </label> 
+               <input type="text" name="emailUser" id="signUpEmail">
+        
+               <label for="phoneUser">Phone Number: </label> 
+               <input type="text" name="phoneUser" id="signUpPhone">
 
-               <label for="signupUser">Username: </label> 
-               <input type="text" name="signUpUser" id="signUpUsername">
+               <input type="submit" value="Submit!"> 
 
-               <label for="loginPass">Password:</label>
-               <input type="password" name="loginPass" id="loginPassword">
-
-               <input type="submit" value="Sign-Up!"> 
-   	  </form>         
+          </form>
       </div>
    </body>
 </html>
