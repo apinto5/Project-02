@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
    <head>
-      <script src="assets/js/md5.js"></script>
       <script src="assets/js/scripts.js"></script>
       <title>Project 02</title>
       <meta charset="utf-8" />
@@ -20,14 +19,14 @@
                <div class="login_btn_menu" id="id_loginmen">
                    <button class="loginbtn">Login</button>
                    <div class="loginbtn-content">
-                       <form action="#" method="get" onsubmit="return getHashData()">
+                       <form action="#" method="post">
                            <label for="loginUser">Username: </label> 
                            <input type="text" name="loginUser" id="loginUsername">
 
                            <label for="loginPass">Password:</label>
                            <input type="password" name="loginPass" id="loginPassword">
                             
-                           <input type="submit" value="Login">
+                           <input type="submit" name = "loginBtn" value="Login">
                            
                            <label for ="signBtn">No account? Head to our sign-up page:</label>
                            <input type="button" onclick="location.href='signup.html'" value="Sign-Up">
