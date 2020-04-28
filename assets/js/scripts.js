@@ -1,16 +1,25 @@
-function getHashData(){
-    var rawPass = document.getElementById('loginPassword').value;
-    var hashPass = md5(rawPass);
-    validateUser(hashPass);
-    return hashPass;
-
-}
-function validateUser(pass){
-    if (document.getElementById('loginUsername').value == "admin" && pass == "9b599faac222a0dfcfab49148ce40c26") {
-        var elem = document.getElementById("id_loginmen");
-        elem.remove();
-        alert("WORKED");
+function validateSignupInputs()
+{
+	var firstName = document.getElementById('firstN').value;
+	var lastName = document.getElementById('lastN').value;
+	var email = document.getElementById('signUpEmail').value;
+	var phone = document.getElementById('signUpPhone').value;
+	if(firstName=="")
+	{
+		alert("Error: Please enter your first name!");
+	}
+    else if(lastName==""){
+		alert("Error: Please enter your last name!");        
     }
+
+	else if(email=="")
+	{
+		alert("Error: Please enter your email address!");
+	}
+	else if(phone.length!=10)
+	{
+		alert("Error: Please enter a valid phone number!");
+	}
 }
 var slideIndex = 1;
 show(slideIndex);
