@@ -143,9 +143,10 @@
     padding-left: 15%;
     padding-right: 15%;
     font-size: 18px;
+    text-align: center;
 }
 .about_text li{
-    float: left;
+    float: center;
 }
 .about img{
     padding-top: 3%;
@@ -154,7 +155,7 @@ h2{
     text-align: center;
     background-image: linear-gradient(white, #2B6CA3);  
     color: white;
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .feat_vid iframe{
