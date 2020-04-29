@@ -22,16 +22,16 @@
                    <button class="loginbtn">Login</button>
                    <div class="loginbtn-content">
                        	<form action="#" method="get" onsubmit="return getHashData()">
-                           <label for="loginUser">Username: </label> 
+                           <label for="loginUsername">Username: </label> 
                            <input type="text" name="loginUser" id="loginUsername">
 
-                           <label for="loginPass">Password:</label>
+                           <label for="loginPassword">Password:</label>
                            <input type="password" name="loginPass" id="loginPassword">
                             
                            <input type="submit" name="loginBtn" value="Login">
                            
                             <label for ="signBtn">No account? Head to our sign-up page:</label>
-                            <input type="button" name="signBtn" onclick="alert('You are already on the sign-up page!')" value="Sign-Up">
+                            <input type="button" id="signBtn" onclick="alert('You are already on the sign-up page!')" value="Sign-Up">
 			    </form>
                    </div>
               </div>
@@ -42,16 +42,16 @@
       <div class="signup">
           <h3>Please use the following contact form to sign-up:</h3>
            <form action="#" method="get" onsubmit="return validateSignupInputs()" id="signform">
-               <label for="first_name">First Name: </label> 
+               <label for="firstN">First Name: </label> 
                <input type="text" name="first_name" id="firstN">
 
-               <label for="last_name">Last Name: </label> 
+               <label for="lastN">Last Name: </label> 
                <input type="text" name="last_name" id="lastN">
                               
-               <label for="emailUser">Email: </label> 
+               <label for="signUpEmail">Email: </label> 
                <input type="text" name="emailUser" id="signUpEmail">
         
-               <label for="phoneUser">Phone Number: </label> 
+               <label for="signUpPhone">Phone Number: </label> 
                <input type="text" name="phoneUser" id="signUpPhone">
 
                <input type="submit" value="Submit!"> 
