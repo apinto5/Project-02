@@ -101,25 +101,21 @@
 
 .icon1{
     display: inline-block;
-    font-size: auto;
     width: 15%;
     padding-right: 5%;
 }
 .icon2{
     display: inline-block;
-     font-size: auto;
     width: 15%;
     padding-right: 5%;
 }
 .icon3{
     display: inline-block;
-    font-size: auto;
     width: 15%;
     padding-right: 5%;
 }
 .icon4{
     display: inline-block;
-    font-size: auto;
     width: 15%;
     padding-right: 5%;
 }
@@ -147,7 +143,6 @@
     padding-left: 15%;
     padding-right: 15%;
     font-size: 18px;
-    float: center;
 }
 .about_text li{
     float: left;
