@@ -146,11 +146,16 @@
     text-align: center;
 }
 .about_text li{
-    float: center;
+    float: left;
 }
-.about img{
-    padding-top: 3%;
+.pwlImg{
+    text-align: center;
 }
+.pawel_image_cap{
+    text-align: center;
+    font-size: 18px;
+}
+
 h2{ 	
     text-align: center;
     background-image: linear-gradient(white, #2B6CA3);  
